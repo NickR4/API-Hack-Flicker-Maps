@@ -6,7 +6,7 @@
  function mapLoad() {
  var locSet = document.getElementById("locID").textContent;
 
- console.log(locSet);  
+ console.log("here is the location "+ locSet);  
   L.mapquest.key = 'dO0DHg2XnwETxE1afcFrGNOBG497aZMN';
 
   var popup = L.popup();
